@@ -1,0 +1,19 @@
+# TEAM
+
+    Author: Toru Tsugawa
+    Contact: https://tsugawa.biz/contact/
+    Facebook: https://www.facebook.com/creative.tsugawa.tv/
+    Website: https://tsugawa.tv/
+    Location: Japan
+
+# THANKS
+
+    Friends, Family and you
+
+# TECHNOLOGY COLOPHON
+
+    Standards: HTML5, CSS3, JavaScript
+    Language: Japanese / English
+    Components: HTML5 Boilerplate, WordPress, Bootstrap, AMP, jQuery, PHP
+    IDE: Brackets, FileZilla, Procreate, Photoshop, Mac, Windows, iPad
+    
