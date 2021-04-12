@@ -32,18 +32,26 @@
 </head>
 <body class="home">
   
-<nav>
-  <div class="logo">Logo</div>
-  <div class="links">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-</nav>
-<main>
-  <p>Hello, World!</p>
-</main>  
-  <footer></footer>
+  <nav>
+    <div class="logo">Logo</div>
+      <div class="links">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+  </nav>
+  
+  <main>
+    <p>Hello, World!</p>
+  </main>  
+  
+  <footer>
+    <p>&copy; 2007 &ndash; <span id="year"></span> Your Company</p>
+  </footer>
+  
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-xxxxxxx-x', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
