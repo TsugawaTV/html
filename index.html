@@ -1,24 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
+  <!-- 文字コード・ビューポート（最優先） -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-xxxxxxx');</script>
+  <!-- Google Tag Manager (実際のIDに書き換える) -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
   <!-- End Google Tag Manager -->
 
+  <!-- タイトル・基本メタ -->
   <title>タイトル</title>
-  <meta name="description" content="">
+  <meta name="description" content="このページの説明">
 
   <!-- 従来のメタデータ（システム・SNS用） -->
   <meta name="author" content="あなたの名前や会社名">
-  
   <!-- 開発者向けクレジット（遊び心・文化） -->
   <link rel="author" href="/humans.txt">
   <!-- SEO向けにはJSON-LDを別途記述 -->
-  
-  <link rel="canonical" href="">
+
+  <!-- Canonical（URL正規化） -->
+  <link rel="canonical" href="this-page-url">
 
   <!-- クローラー制御（Google Discoverの大画像表示を許可） -->
   <meta name="robots" content="max-image-preview:large">
@@ -54,15 +56,18 @@
   <meta name="twitter:description" content="60～70文字程度">
   <meta name="twitter:image" content="https://tsugawa.tv/images/image-ogp.jpg">
   <!-- アカウントがあれば以下を追加。無ければ不要 -->
-  <meta name="twitter:site" content="@c_r_eative">
-
-
-
+  <!-- <meta name="twitter:site" content="@tsugawa_tv"> -->
   
+  <!-- CSS・Google Fonts -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com"><link href="#" rel="stylesheet">
 </head>
 <body class="home">
+
+  <!-- GTM Body (実際のIDに書き換える) -->
+  <!-- Google Tag Manager (noscript) -->
+  <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+  <!-- End Google Tag Manager (noscript) -->
   
   <nav>
     <div class="logo">Logo</div>
@@ -75,7 +80,7 @@
   
   <main>
     <p>Hello, World!</p>
-  </main>  
+  </main>
   
   <footer>
     <p>&copy; 2007 &ndash; <span id="year"></span> Tsugawa.TV</p>
@@ -84,11 +89,6 @@
   <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
   </script>
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-xxxxxxx-x', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 
 </body>
 </html>
