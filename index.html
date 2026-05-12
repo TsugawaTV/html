@@ -66,8 +66,47 @@
   <!-- アカウントがあれば以下を追加。無ければ不要 -->
   <!-- <meta name="twitter:site" content="@tsugawa_tv"> -->
 
-
-  
+  <!-- 構造化データ -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "{{SITE_URL}}#website",
+      "url": "{{SITE_URL}}",
+      "name": "{{SITE_NAME}}",
+      "inLanguage": "{{SITE_LANGUAGE}}",
+      "publisher": {
+        "@id": "{{SITE_URL}}#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "{{SITE_URL}}#organization",
+      "url": "{{SITE_URL}}",
+      "name": "{{SITE_NAME}}",
+      "logo": "{{ORGANIZATION_LOGO_URL}}",
+      "description": "{{ORGANIZATION_DESCRIPTION}}",
+      "foundingDate": "{{ORGANIZATION_FOUNDING_DATE}}",
+      "founder": {
+        "@type": "Person",
+        "name": "{{FOUNDER_NAME}}",
+        "url": "{{FOUNDER_URL}}"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{PAGE_URL}}#webpage",
+      "url": "{{PAGE_URL}}",
+      "name": "{{PAGE_TITLE}}",
+      "isPartOf": {
+        "@id": "{{SITE_URL}}#website"
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body class="home">
 
