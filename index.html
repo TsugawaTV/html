@@ -13,11 +13,21 @@
   <title>タイトル</title>
   <meta name="description" content="このページの説明">
 
+  <!-- DNS/接続の事前確立 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Google Fonts CSS（preconnectの直後に置く） -->
+  <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- ローカル/インライン CSS -->
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen">
+  <style></style>
+
   <!-- 従来のメタデータ（システム・SNS用） -->
   <meta name="author" content="あなたの名前や会社名">
   <!-- 開発者向けクレジット（遊び心・文化） -->
   <link rel="author" href="/humans.txt">
-  <!-- SEO向けにはJSON-LDを別途記述 -->
 
   <!-- Canonical（URL正規化） -->
   <link rel="canonical" href="this-page-url">
@@ -55,10 +65,9 @@
   <meta name="twitter:card" content="summary_large_image">
   <!-- アカウントがあれば以下を追加。無ければ不要 -->
   <!-- <meta name="twitter:site" content="@tsugawa_tv"> -->
+
+
   
-  <!-- CSS・Google Fonts -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com"><link href="#" rel="stylesheet">
 </head>
 <body class="home">
 
