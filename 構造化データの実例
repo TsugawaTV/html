@@ -1,0 +1,40 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://tsugawa.tv/#website",
+      "url": "https://tsugawa.tv/",
+      "name": "Tsugawa.TV",
+      "inLanguage": "ja",
+      "publisher": {
+        "@id": "https://tsugawa.tv/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://tsugawa.tv/#organization",
+      "url": "https://tsugawa.tv/",
+      "name": "Tsugawa.TV",
+      "logo": "https://tsugawa.tv/images/logo.svg",
+      "description": "ウェブサイト制作、デザイン、ソフトウェア開発などを行うクリエイティブ事業",
+      "foundingDate": "2007",
+      "founder": {
+        "@type": "Person",
+        "name": "對川 徹",
+        "url": "https://tsugawa.tv/profile/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://tsugawa.tv/concept/#webpage",
+      "url": "https://tsugawa.tv/concept/",
+      "name": "Concept - Tsugawa.TV",
+      "isPartOf": {
+        "@id": "https://tsugawa.tv/#website"
+      }
+    }
+  ]
+}
+</script>
